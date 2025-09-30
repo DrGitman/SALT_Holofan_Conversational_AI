@@ -1,0 +1,3 @@
+## Kapembe
+
+I grew up at Omatako village, in the Tsumgwe area where I completed my primary education. I was attending school from grade 6 to 10 in Tsumgwe. I had to endure discriminations and hardship while in school because both my parents were unemployed. Despite the hardship I had to face what motivated me to persist was my aunt that paid for school fees and kept on encouraging me. I am currently enrolled at Monotronics College. I want to encourage my fellow San learners not to be discouraged by what others are saying about you and to never give up but to take opportunities given and make the best of it.

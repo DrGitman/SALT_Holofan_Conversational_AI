@@ -27,8 +27,8 @@ An ElevenLabs API key
 
 Installation
 1. Clone Repository
-git clone https://github.com/your-username/ai-elder-chat.git
-cd ai-elder-chat
+git clone https://github.com/DrGitman/SALT_Holofan_Conversational_AI.git
+cd SALT_Holofan_Conversational_AI
 
 2. Backend Setup
 cd backend
@@ -111,4 +111,5 @@ Troubleshooting
 - CORS error → Check backend has CORSMiddleware allowing http://localhost:3000.
 - Model not found → Ensure correct Gemini model name in backend (gemini-1.5-flash).
 - TTS SSL errors → Sometimes ElevenLabs rate-limits free accounts; retry later.
+
 

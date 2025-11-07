@@ -82,26 +82,6 @@ Generate a reply via Gemini
 
 Speak back using ElevenLabs
 
-Project Structure
-ai-elder-chat/
-│── backend/           # FastAPI + LangChain server
-│   ├── main.py        # API entrypoint
-│   ├── rag.py         # RAG logic (Gemini + embeddings)
-│   ├── tts.py         # ElevenLabs integration
-│   └── .env           # API keys
-│
-│── frontend/          # React app
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Avatar.jsx
-│   │   │   ├── ChatLog.jsx
-│   │   │   └── SpeechControls.jsx
-│   │   ├── App.jsx
-│   │   └── tts.js
-│   └── public/
-│
-└── README.md
-
 Troubleshooting
 - 500 ELEVENLABS_API_KEY not configured → Ensure .env in backend/ has your key.
 - CORS error → Check backend has CORSMiddleware allowing http://localhost:3000.
@@ -111,5 +91,6 @@ Troubleshooting
 - CORS error → Check backend has CORSMiddleware allowing http://localhost:3000.
 - Model not found → Ensure correct Gemini model name in backend (gemini-1.5-flash).
 - TTS SSL errors → Sometimes ElevenLabs rate-limits free accounts; retry later.
+
 
 

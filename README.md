@@ -1,9 +1,9 @@
-#SALT Holofan Conversational AI — Setup Guide
+SALT Holofan Conversational AI — Setup Guide
 
 An interactive AI-powered chatbot with speech-to-text, text-to-speech, and retrieval over local documents.
 Frontend built with React + TailwindCSS, backend with FastAPI + LangChain + Google Gemini, and TTS via ElevenLabs.
 
-##Features
+Features
 
 - Voice input via browser speech recognition
 
@@ -25,7 +25,7 @@ A Google Gemini API key
 
 An ElevenLabs API key
 
-##Installation
+Installation
 1. Clone Repository
 git clone https://github.com/your-username/ai-elder-chat.git
 cd ai-elder-chat
@@ -68,7 +68,7 @@ Frontend will be live at:
 
 http://localhost:3000
 
-##Usage
+Usage
 
 Start backend (uvicorn) and frontend (npm start).
 
@@ -82,7 +82,7 @@ Generate a reply via Gemini
 
 Speak back using ElevenLabs
 
-##Project Structure
+Project Structure
 ai-elder-chat/
 │── backend/           # FastAPI + LangChain server
 │   ├── main.py        # API entrypoint
@@ -102,7 +102,7 @@ ai-elder-chat/
 │
 └── README.md
 
-##Troubleshooting
+Troubleshooting
 - 500 ELEVENLABS_API_KEY not configured → Ensure .env in backend/ has your key.
 - CORS error → Check backend has CORSMiddleware allowing http://localhost:3000.
 - Model not found → Ensure correct Gemini model name in backend (gemini-1.5-flash).
@@ -111,3 +111,4 @@ ai-elder-chat/
 - CORS error → Check backend has CORSMiddleware allowing http://localhost:3000.
 - Model not found → Ensure correct Gemini model name in backend (gemini-1.5-flash).
 - TTS SSL errors → Sometimes ElevenLabs rate-limits free accounts; retry later.
+
